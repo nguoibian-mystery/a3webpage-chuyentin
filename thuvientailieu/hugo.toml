@@ -1,0 +1,19 @@
+baseURL = 'https://example.org/'
+languageCode = 'vi-vn'
+title = 'Thư Viện Tài Liệu'
+theme = "PaperMod"
+
+[[menu.main]]
+  name = "Tài Liệu"
+  url = "/tailieu/"
+  weight = 1
+
+[[menu.main]]
+  name = "Đề Thi"
+  url = "/dethi/"
+  weight = 2
+
+[[menu.main]]
+  name = "Bài Tập"
+  url = "/baitap/"
+  weight = 3

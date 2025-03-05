@@ -1,0 +1,3 @@
+[submodule "thuvientailieu/themes/PaperMod"]
+	path = thuvientailieu/themes/PaperMod
+	url = https://github.com/adityatelange/hugo-PaperMod.git
