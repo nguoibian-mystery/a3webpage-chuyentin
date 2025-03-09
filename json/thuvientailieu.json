@@ -5,28 +5,28 @@
             "id": "tlgkct",
             "files": [
                 {"name": "Quyển 1", "url": "/thuvientailieu/pdf?url=https://chuyentin.a3sachhonaba.com/assets/chuyentin.a3sachhonaba.com/documents/pdf/tailieu/tailieugiaokhoachuyentin/quyen1.pdf"},
-                {"name": "Quyển 1 - Bài tập", "url": "/thuvientailieu/pdf?url=https://chuyentin.a3sachhonaba.com/assets/chuyentin.a3sachhonaba.com/documents/pdf/tailieu/tailieu/tailieugiaokhoachuyentin/quyen1_baitap.pdf"},
-                {"name": "Quyển 2", "url": "/thuvientailieu/pdf?url=https://chuyentin.a3sachhonaba.com/assets/chuyentin.a3sachhonaba.com/documents/pdf/tailieu/tailieu/tailieugiaokhoachuyentin/quyen2.pdf"},
-                {"name": "Quyển 2 - Bài tập", "url": "/thuvientailieu/pdf?url=https://chuyentin.a3sachhonaba.com/assets/chuyentin.a3sachhonaba.com/documents/pdf/tailieu/tailieu/tailieugiaokhoachuyentin/quyen2_baitap.pdf"},
-                {"name": "Quyển 3", "url": "/thuvientailieu/pdf?url=https://chuyentin.a3sachhonaba.com/assets/chuyentin.a3sachhonaba.com/documents/pdf/tailieu/tailieu/tailieugiaokhoachuyentin/quyen3.pdf"},
-                {"name": "Quyển 3 - Bài tập", "url": "/thuvientailieu/pdf?url=https://chuyentin.a3sachhonaba.com/assets/chuyentin.a3sachhonaba.com/documents/pdf/tailieu/tailieu/tailieugiaokhoachuyentin/quyen3_baitap.pdf"}
+                {"name": "Quyển 1 - Bài tập", "url": "/thuvientailieu/pdf?url=https://chuyentin.a3sachhonaba.com/assets/chuyentin.a3sachhonaba.com/documents/pdf/tailieu/tailieugiaokhoachuyentin/quyen1_baitap.pdf"},
+                {"name": "Quyển 2", "url": "/thuvientailieu/pdf?url=https://chuyentin.a3sachhonaba.com/assets/chuyentin.a3sachhonaba.com/documents/pdf/tailieu/tailieugiaokhoachuyentin/quyen2.pdf"},
+                {"name": "Quyển 2 - Bài tập", "url": "/thuvientailieu/pdf?url=https://chuyentin.a3sachhonaba.com/assets/chuyentin.a3sachhonaba.com/documents/pdf/tailieu/tailieugiaokhoachuyentin/quyen2_baitap.pdf"},
+                {"name": "Quyển 3", "url": "/thuvientailieu/pdf?url=https://chuyentin.a3sachhonaba.com/assets/chuyentin.a3sachhonaba.com/documents/pdf/tailieu/tailieugiaokhoachuyentin/quyen3.pdf"},
+                {"name": "Quyển 3 - Bài tập", "url": "/thuvientailieu/pdf?url=https://chuyentin.a3sachhonaba.com/assets/chuyentin.a3sachhonaba.com/documents/pdf/tailieu/tailieugiaokhoachuyentin/quyen3_baitap.pdf"}
             ]
         },
         {
             "name": "Sách giáo khoa tin học 11 bằng C++",
-            "url": "/thuvientailieu/pdf?url=https://chuyentin.a3sachhonaba.com/assets/chuyentin.a3sachhonaba.com/documents/pdf/tailieu/tailieu/sachgiaokhoatinhoc11bangcpp/sachgiaokhoatinhoc11bangcpp.pdf"
+            "url": "/thuvientailieu/pdf?url=https://chuyentin.a3sachhonaba.com/assets/chuyentin.a3sachhonaba.com/documents/pdf/tailieu/sachgiaokhoatinhoc11bangcpp/sachgiaokhoatinhoc11bangcpp.pdf"
         },
         {
             "name": "Các buổi C++",
             "id": "cacbuoicpp",
             "files": [
-                {"name": "Buổi 1", "url": "/thuvientailieu/pdf?url=https://chuyentin.a3sachhonaba.com/assets/chuyentin.a3sachhonaba.com/documents/pdf/tailieu/tailieu/cacbuoicpp/buoi1.pdf"},
-                {"name": "Buổi 2", "url": "/thuvientailieu/pdf?url=https://chuyentin.a3sachhonaba.com/assets/chuyentin.a3sachhonaba.com/documents/pdf/tailieu/tailieu/cacbuoicpp/buoi2.pdf"},
-                {"name": "Buổi 3", "url": "/thuvientailieu/pdf?url=https://chuyentin.a3sachhonaba.com/assets/chuyentin.a3sachhonaba.com/documents/pdf/tailieu/tailieu/cacbuoicpp/buoi3.pdf"},
-                {"name": "Buổi 4", "url": "/thuvientailieu/pdf?url=https://chuyentin.a3sachhonaba.com/assets/chuyentin.a3sachhonaba.com/documents/pdf/tailieu/tailieu/cacbuoicpp/buoi4.pdf"},
-                {"name": "Buổi 5", "url": "/thuvientailieu/pdf?url=https://chuyentin.a3sachhonaba.com/assets/chuyentin.a3sachhonaba.com/documents/pdf/tailieu/tailieu/cacbuoicpp/buoi5.pdf"},
-                {"name": "Buổi 7", "url": "/thuvientailieu/pdf?url=https://chuyentin.a3sachhonaba.com/assets/chuyentin.a3sachhonaba.com/documents/pdf/tailieu/tailieu/cacbuoicpp/buoi7.pdf"},
-                {"name": "Buổi 8", "url": "/thuvientailieu/pdf?url=https://chuyentin.a3sachhonaba.com/assets/chuyentin.a3sachhonaba.com/documents/pdf/tailieu/tailieu/cacbuoicpp/buoi8.pdf"}
+                {"name": "Buổi 1", "url": "/thuvientailieu/pdf?url=https://chuyentin.a3sachhonaba.com/assets/chuyentin.a3sachhonaba.com/documents/pdf/tailieu/cacbuoicpp/buoi1.pdf"},
+                {"name": "Buổi 2", "url": "/thuvientailieu/pdf?url=https://chuyentin.a3sachhonaba.com/assets/chuyentin.a3sachhonaba.com/documents/pdf/tailieu/cacbuoicpp/buoi2.pdf"},
+                {"name": "Buổi 3", "url": "/thuvientailieu/pdf?url=https://chuyentin.a3sachhonaba.com/assets/chuyentin.a3sachhonaba.com/documents/pdf/tailieu/cacbuoicpp/buoi3.pdf"},
+                {"name": "Buổi 4", "url": "/thuvientailieu/pdf?url=https://chuyentin.a3sachhonaba.com/assets/chuyentin.a3sachhonaba.com/documents/pdf/tailieu/cacbuoicpp/buoi4.pdf"},
+                {"name": "Buổi 5", "url": "/thuvientailieu/pdf?url=https://chuyentin.a3sachhonaba.com/assets/chuyentin.a3sachhonaba.com/documents/pdf/tailieu/cacbuoicpp/buoi5.pdf"},
+                {"name": "Buổi 7", "url": "/thuvientailieu/pdf?url=https://chuyentin.a3sachhonaba.com/assets/chuyentin.a3sachhonaba.com/documents/pdf/tailieu/cacbuoicpp/buoi7.pdf"},
+                {"name": "Buổi 8", "url": "/thuvientailieu/pdf?url=https://chuyentin.a3sachhonaba.com/assets/chuyentin.a3sachhonaba.com/documents/pdf/tailieu/cacbuoicpp/buoi8.pdf"}
             ]
         }
 
