@@ -1,0 +1,48 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f2f5;
+    margin: 0;
+    padding: 20px;
+}
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+h1 {
+    text-align: center;
+    color: #333;
+}
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+.folder-btn, .file-btn {
+    cursor: pointer;
+    font-weight: bold;
+    background-color: #ffffff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    text-align: left;
+    width: calc(100% - 24px);
+    margin: 5px 0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s, transform 0.3s;
+}
+.folder-btn:hover, .file-btn:hover {
+    background-color: #e0e0e0;
+    transform: scale(1.02);
+}
+.file-btn {
+    font-weight: normal;
+}
+.folder-contents {
+    margin-left: 20px;
+}
+.hidden {
+    display: none;
+}
