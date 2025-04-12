@@ -1,0 +1,118 @@
+{
+    "tailieu": [
+        {
+            "name": "Tài liệu giáo khoa chuyên tin",
+            "id": "tlgkct",
+            "files": [
+                {"name": "Quyển 1", "url": "../assets/chuyentin.a3sachhonaba.com/documents/pdf/tailieu/tailieugiaokhoachuyentin/quyen1.pdf"},
+                {"name": "Quyển 1 - Bài tập", "url": "../assets/chuyentin.a3sachhonaba.com/documents/pdf/tailieu/tailieugiaokhoachuyentin/quyen1_baitap.pdf"},
+                {"name": "Quyển 2", "url": "../assets/chuyentin.a3sachhonaba.com/documents/pdf/tailieu/tailieugiaokhoachuyentin/quyen2.pdf"},
+                {"name": "Quyển 2 - Bài tập", "url": "../assets/chuyentin.a3sachhonaba.com/documents/pdf/tailieu/tailieugiaokhoachuyentin/quyen2_baitap.pdf"},
+                {"name": "Quyển 3", "url": "../assets/chuyentin.a3sachhonaba.com/documents/pdf/tailieu/tailieugiaokhoachuyentin/quyen3.pdf"},
+                {"name": "Quyển 3 - Bài tập", "url": "../assets/chuyentin.a3sachhonaba.com/documents/pdf/tailieu/tailieugiaokhoachuyentin/quyen3_baitap.pdf"}
+            ]
+        },
+        {
+            "name": "Sách giáo khoa tin học 11 bằng C++",
+            "url": "../assets/chuyentin.a3sachhonaba.com/documents/pdf/tailieu/sachgiaokhoatinhoc11bangcpp/sachgiaokhoatinhoc11bangcpp.pdf"
+        },
+        {
+            "name": "Các buổi C++",
+            "id": "cacbuoicpp",
+            "files": [
+                {"name": "Buổi 1", "url": "../assets/chuyentin.a3sachhonaba.com/documents/pdf/tailieu/cacbuoicpp/buoi1.pdf"},
+                {"name": "Buổi 2", "url": "../assets/chuyentin.a3sachhonaba.com/documents/pdf/tailieu/cacbuoicpp/buoi2.pdf"},
+                {"name": "Buổi 3", "url": "../assets/chuyentin.a3sachhonaba.com/documents/pdf/tailieu/cacbuoicpp/buoi3.pdf"},
+                {"name": "Buổi 4", "url": "../assets/chuyentin.a3sachhonaba.com/documents/pdf/tailieu/cacbuoicpp/buoi4.pdf"},
+                {"name": "Buổi 5", "url": "../assets/chuyentin.a3sachhonaba.com/documents/pdf/tailieu/cacbuoicpp/buoi5.pdf"},
+                {"name": "Buổi 7", "url": "../assets/chuyentin.a3sachhonaba.com/documents/pdf/tailieu/cacbuoicpp/buoi7.pdf"},
+                {"name": "Buổi 8", "url": "../assets/chuyentin.a3sachhonaba.com/documents/pdf/tailieu/cacbuoicpp/buoi8.pdf"}
+            ]
+        }
+
+    ],
+    "dethi": [
+        {
+            "name": "Olympic truyền thống 30/4",
+            "id": "olympictruyenthong30-4",
+            "files": [
+                {"name": "2024", "url": "../assets/chuyentin.a3sachhonaba.com/documents/pdf/dethi/olympictruyenthong/khoi10/olympictruyenthongkhoi10_2024.pdf"},
+                {"name": "2023", "url": "../assets/chuyentin.a3sachhonaba.com/documents/pdf/dethi/olympictruyenthong/khoi10/olympictruyenthongkhoi10_2023.pdf"},
+                {"name": "2021", "url": "../assets/chuyentin.a3sachhonaba.com/documents/pdf/dethi/olympictruyenthong/khoi10/olympictruyenthongkhoi10_2021.pdf"},
+                {"name": "2019", "url": "../assets/chuyentin.a3sachhonaba.com/documents/pdf/dethi/olympictruyenthong/khoi10/olympictruyenthongkhoi10_2019.pdf"},
+                {"name": "2018", "url": "../assets/chuyentin.a3sachhonaba.com/documents/pdf/dethi/olympictruyenthong/khoi10/olympictruyenthongkhoi10_2018.pdf"},
+                {"name": "2017", "url": "../assets/chuyentin.a3sachhonaba.com/documents/pdf/dethi/olympictruyenthong/khoi10/olympictruyenthongkhoi10_2017.pdf"},
+                {"name": "2016", "url": "../assets/chuyentin.a3sachhonaba.com/documents/pdf/dethi/olympictruyenthong/khoi10/olympictruyenthongkhoi10_2016.pdf"},
+                {"name": "2015", "url": "../assets/chuyentin.a3sachhonaba.com/documents/pdf/dethi/olympictruyenthong/khoi10/olympictruyenthongkhoi10_2015.pdf"},
+                {"name": "2014", "url": "../assets/chuyentin.a3sachhonaba.com/documents/pdf/dethi/olympictruyenthong/khoi10/olympictruyenthongkhoi10_2014.pdf"},
+                {"name": "2013", "url": "../assets/chuyentin.a3sachhonaba.com/documents/pdf/dethi/olympictruyenthong/khoi10/olympictruyenthongkhoi10_2013.pdf"}
+            ]
+        },
+        {
+            "name": "Tuyển sinh 10",
+            "id": "tuyensinh10",
+            "files": [
+                {
+                    "name": "Tỉnh Sóc Trăng",
+                    "id": "tuyensinh10-tinhsoctrang",
+                    "files": [
+                        {"name": "Năm học 2024-2025", "url": "../assets/chuyentin.a3sachhonaba.com/documents/pdf/dethi/tuyensinh10/tinhsoctrang/tuyensinh10tinhsoctrang_2024-2025.pdf"}
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "HSG",
+            "id": "hsg",
+            "files": [
+                {
+                    "name": "THPT",
+                    "id": "hsg-thpt",
+                    "files": [
+                        {
+                            "name": "Tỉnh Sóc Trăng",
+                            "id": "hsg-thpt-tinhsoctrang",
+                            "files": [
+                                {"name": "2024-2025", "url": "../assets/chuyentin.a3sachhonaba.com/documents/pdf/dethi/thpt/hsg/tinhsoctrang/thpthsgtinhsoctrangtinhsoctrang_2024-2025.pdf"},
+                                {"name": "2023-2024", "url": "../assets/chuyentin.a3sachhonaba.com/documents/pdf/dethi/thpt/hsg/tinhsoctrang/thpthsgtinhsoctrangtinhsoctrang_2023-2024.pdf"},
+                                {"name": "2022-2023", "url": "../assets/chuyentin.a3sachhonaba.com/documents/pdf/dethi/thpt/hsg/tinhsoctrang/thpthsgtinhsoctrangtinhsoctrang_2022-2023.pdf"}
+                            ]
+                        },
+                        {
+                            "name": "Quốc Gia",
+                            "id": "hsg-thpt-quocgia",
+                            "files": [
+                                {"name": "2023-2024", "url": "../assets/chuyentin.a3sachhonaba.com/documents/pdf/dethi/thpt/hsg/quocgia/thpthsgquocgia_2023-2024.pdf"},
+                                {"name": "2022-2023", "url": "../assets/chuyentin.a3sachhonaba.com/documents/pdf/dethi/thpt/hsg/quocgia/thpthsgquocgia_2022-2023.pdf"},
+                                {"name": "2021-2022", "url": "../assets/chuyentin.a3sachhonaba.com/documents/pdf/dethi/thpt/hsg/quocgia/thpthsgquocgia_2021-2022.pdf"}
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "International Collegiate Programming Contest (ICPC)",
+            "id": "icpc",
+            "files": [
+                {
+                    "name": "Miền nam",
+                    "id": "icpc-miennam",
+                    "files": [
+                            {"name": "2024", "url": "../assets/chuyentin.a3sachhonaba.com/documents/pdf/dethi/icpc/miennam/icpcmiennam_2024.pdf"}
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Vòng thi trường",
+            "id": "vongthitruong",
+            "files": [
+                {"name": "Chọn lọc đội tuyển tin học truyền thống 30/4 (14/12/2024)", "url": "../assets/chuyentin.a3sachhonaba.com/documents/pdf/dethi/vongthitruong/thptchuyenntmk/chonlocdoituyen30-4(14-12-2024).pdf"},
+                {"name": "Chọn lọc đội tuyển tin học truyền thống 30/4 (27/11/2024)", "url": "../assets/chuyentin.a3sachhonaba.com/documents/pdf/dethi/vongthitruong/thptchuyenntmk/chonlocdoituyen30-4(27-11-2024).pdf"},
+                {"name": "Khảo sát chất lượng đội năng khiếu tin học năm học 2024-2025 (18/12/2024)", "url": "../assets/chuyentin.a3sachhonaba.com/documents/pdf/dethi/vongthitruong/thptchuyenntmk/khaosatchatluongdoinangkhieutinhoc2024-2025(18-12-2024).pdf"},
+                {"name": "Khảo sát chất lượng đội năng khiếu tin học năm học 2024-2025 (11/12/2024)", "url": "../assets/chuyentin.a3sachhonaba.com/documents/pdf/dethi/vongthitruong/thptchuyenntmk/khaosatchatluongdoinangkhieutinhoc2024-2025(11-12-2024).pdf"}
+            ]
+        }
+    ]
+}

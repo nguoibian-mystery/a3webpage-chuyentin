@@ -2,37 +2,215 @@
 <html lang="vi">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon">
     <title>A3 Chuyên Tin - Thư viện tài liệu</title>
-    <link rel="stylesheet" href="/thuvientailieu/css/index.css">
-    <link rel="stylesheet" href="/css/preloader.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        primary: {
+                            50: '#f0f9ff',
+                            100: '#e0f2fe',
+                            500: '#3b82f6',
+                            600: '#2563eb',
+                            700: '#1d4ed8',
+                        },
+                        secondary: {
+                            500: '#6b7280',
+                            600: '#4b5563',
+                        }
+                    },
+                    boxShadow: {
+                        'soft': '0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06)',
+                        'soft-lg': '0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05)',
+                    },
+                    transitionProperty: {
+                        'transform-shadow': 'transform, box-shadow',
+                    },
+                    keyframes: {
+                        'fade-in': {
+                            '0%': { opacity: '0', transform: 'translateY(-10px)' },
+                            '100%': { opacity: '1', transform: 'translateY(0)' },
+                        },
+                        'fade-out': {
+                            '0%': { opacity: '1', transform: 'translateY(0)' },
+                            '100%': { opacity: '0', transform: 'translateY(-10px)' },
+                        },
+                        'pulse-slow': {
+                            '0%, 100%': { opacity: '1' },
+                            '50%': { opacity: '0.8' },
+                        }
+                    },
+                    animation: {
+                        'fade-in': 'fade-in 0.3s ease-out forwards',
+                        'fade-out': 'fade-out 0.3s ease-out forwards',
+                        'pulse-slow': 'pulse-slow 3s ease-in-out infinite',
+                    }
+                }
+            }
+        }
+    </script>
 </head>
-<body>
-    <div id="hidebody">
-        <div id="preloader">
-            <img src="https://chuyentin.a3sachhonaba.com/assets/chuyentin.a3sachhonaba.com/images/gif/loader.gif" alt="Loader Image" />
+<body class="bg-gray-50 min-h-screen py-8 px-4 sm:px-6 lg:px-8">
+    <div class="max-w-3xl mx-auto bg-white rounded-xl shadow-soft-lg overflow-hidden animate-fade-in">
+        <div class="p-6 sm:p-8">
+            <h1 class="text-3xl font-bold text-center text-gray-800 mb-8 transform transition-all duration-500 hover:scale-105 hover:text-primary-600">Thư viện tài liệu</h1>
+            
+            <ul class="space-y-3">
+                <li>
+                    <button class="folder-btn w-full flex items-center justify-between px-5 py-3 bg-white border border-gray-200 rounded-lg shadow-soft hover:shadow-md transition-all duration-300 hover:bg-gray-50 hover:-translate-y-0.5 active:translate-y-0 text-gray-700 font-medium group"
+                            onclick="toggleVisibility('tailieu')">
+                        <span class="group-hover:text-primary-600 transition-colors duration-200">Tài liệu</span>
+                        <svg class="w-5 h-5 text-gray-500 group-hover:text-primary-500 transition-all duration-200 transform group-hover:scale-110" id="tailieu-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                        </svg>
+                    </button>
+                    <ul id="tailieu" class="folder-contents hidden pl-6 mt-2 space-y-2 border-l-2 border-primary-200"></ul>
+                </li>
+                
+                <li>
+                    <button class="folder-btn w-full flex items-center justify-between px-5 py-3 bg-white border border-gray-200 rounded-lg shadow-soft hover:shadow-md transition-all duration-300 hover:bg-gray-50 hover:-translate-y-0.5 active:translate-y-0 text-gray-700 font-medium group"
+                            onclick="toggleVisibility('dethi')">
+                        <span class="group-hover:text-primary-600 transition-colors duration-200">Đề thi</span>
+                        <svg class="w-5 h-5 text-gray-500 group-hover:text-primary-500 transition-all duration-200 transform group-hover:scale-110" id="dethi-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                        </svg>
+                    </button>
+                    <ul id="dethi" class="folder-contents hidden pl-6 mt-2 space-y-2 border-l-2 border-primary-200"></ul>
+                </li>
+                
+                <li>
+                    <a href="https://luutrucode.a3sachhonaba.com/" class="w-full flex items-center px-5 py-3 bg-white border border-gray-200 rounded-lg shadow-soft hover:shadow-md transition-all duration-300 hover:bg-gray-50 hover:-translate-y-0.5 active:translate-y-0 text-gray-700 font-medium group">
+                        <span class="group-hover:text-primary-600 transition-colors duration-200">Lưu trữ code</span>
+                        <svg class="w-5 h-5 ml-2 text-blue-500 group-hover:scale-110 transition-transform duration-200" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"></path>
+                        </svg>
+                    </a>
+                </li>
+                
+                <li>
+                    <a href="https://nomokavanhungdethi.nguyenminhkhoi.io.vn" class="w-full flex items-center px-5 py-3 bg-white border border-gray-200 rounded-lg shadow-soft hover:shadow-md transition-all duration-300 hover:bg-gray-50 hover:-translate-y-0.5 active:translate-y-0 text-gray-700 font-medium group">
+                        <span class="group-hover:text-primary-600 transition-colors duration-200">Nờ Mờ Ka và những đề thi</span>
+                        <svg class="w-5 h-5 ml-2 text-blue-500 group-hover:scale-110 transition-transform duration-200" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"></path>
+                        </svg>
+                    </a>
+                </li>
+            </ul>
         </div>
     </div>
-    <div class="container">
-        <h1>Thư viện tài liệu</h1>
-        <ul>
-            <li>
-                <button class="folder-btn" onclick="toggleVisibility('tailieu')">Tài liệu</button>
-                <ul id="tailieu" class="folder-contents hidden"></ul>
-            </li>
-            <li>
-                <button class="folder-btn" onclick="toggleVisibility('dethi')">Đề thi</button>
-                <ul id="dethi" class="folder-contents hidden"></ul>
-            </li>
-            <li>
-                <button class="folder-btn" onclick="location.href='https://luutrucode.a3sachhonaba.com/';">Lưu trữ code</button>
-            </li>
-            <li>
-                <button class="folder-btn" onclick="location.href='https://nomokavanhungdethi.nguyenminhkhoi.io.vn';">Nờ Mờ Ka và những đề thi</button>
-            </li>
-        </ul>
-    </div>
-    <script src="/thuvientailieu/javascript/index.js"></script>
+
+    <script>
+        function toggleVisibility(id) {
+            const element = document.getElementById(id);
+            const icon = document.getElementById(`${id}-icon`);
+            
+            if (element.classList.contains('hidden')) {
+                element.classList.remove('hidden');
+                element.classList.add('animate-fade-in');
+                icon.classList.add('rotate-180', 'text-primary-500');
+            } else {
+                element.classList.add('animate-fade-out');
+                icon.classList.remove('rotate-180', 'text-primary-500');
+                
+                // Wait for animation to complete before hiding
+                setTimeout(() => {
+                    element.classList.add('hidden');
+                    element.classList.remove('animate-fade-out');
+                }, 300);
+            }
+        }
+
+        async function loadJSON(url) {
+            const response = await fetch(url);
+            return response.json();
+        }
+
+        function createFolderButton(content, id) {
+            const button = document.createElement('button');
+            button.className = 'folder-btn w-full flex items-center justify-between px-5 py-3 bg-white border border-gray-200 rounded-lg shadow-soft hover:shadow-md transition-all duration-300 hover:bg-gray-50 hover:-translate-y-0.5 active:translate-y-0 text-gray-700 font-medium group';
+            button.onclick = () => toggleVisibility(id);
+            
+            const span = document.createElement('span');
+            span.className = 'group-hover:text-primary-600 transition-colors duration-200';
+            span.textContent = content;
+            
+            const icon = document.createElement('div');
+            icon.id = `${id}-icon`;
+            icon.className = 'w-5 h-5 text-gray-500 group-hover:text-primary-500 transition-all duration-200 transform group-hover:scale-110';
+            icon.innerHTML = '<svg fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg>';
+            
+            button.appendChild(span);
+            button.appendChild(icon);
+            
+            return button;
+        }
+
+        function createFileButton(content, url) {
+            const a = document.createElement('a');
+            a.href = url;
+            a.target = '_blank';
+            a.className = 'w-full flex items-center px-5 py-3 bg-white border border-gray-200 rounded-lg shadow-soft hover:shadow-md transition-all duration-300 hover:bg-gray-50 hover:-translate-y-0.5 active:translate-y-0 text-gray-600 group animate-fade-in';
+            
+            const span = document.createElement('span');
+            span.className = 'group-hover:text-primary-600 transition-colors duration-200';
+            span.textContent = content;
+            
+            const icon = document.createElement('div');
+            icon.className = 'w-5 h-5 ml-2 text-blue-500 group-hover:scale-110 transition-transform duration-200';
+            icon.innerHTML = '<svg fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"></path></svg>';
+            
+            a.appendChild(span);
+            a.appendChild(icon);
+            
+            return a;
+        }
+
+        function createListItem(content, isFolder = false, id = '', url = '') {
+            const li = document.createElement('li');
+            li.className = 'animate-fade-in';
+            
+            if (isFolder) {
+                li.appendChild(createFolderButton(content, id));
+                const ul = document.createElement('ul');
+                ul.id = id;
+                ul.className = 'folder-contents hidden pl-6 mt-2 space-y-2 border-l-2 border-primary-200';
+                li.appendChild(ul);
+            } else {
+                li.appendChild(createFileButton(content, url));
+            }
+            
+            return li;
+        }
+
+        function buildStructure(data, parentElement) {
+            data.forEach((item, index) => {
+                // Add delay for staggered animation
+                const li = createListItem(item.name, !!item.files, item.id, item.url);
+                li.style.animationDelay = `${index * 50}ms`;
+                
+                if (item.files) {
+                    buildStructure(item.files, li.querySelector('ul'));
+                }
+                parentElement.appendChild(li);
+            });
+        }
+
+        document.addEventListener('DOMContentLoaded', async () => {
+            try {
+                const data = await loadJSON('json/thuvientailieu.json');
+                const tailieuElement = document.querySelector('#tailieu');
+                const dethiElement = document.querySelector('#dethi');
+
+                buildStructure(data.tailieu, tailieuElement);
+                buildStructure(data.dethi, dethiElement);
+            } catch (error) {
+                console.error('Error loading data:', error);
+            }
+        });
+    </script>
 </body>
-<script src="/javascript/preloader.js"></script>
 </html>
